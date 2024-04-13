@@ -2,8 +2,9 @@ name: Attach Debug APKs To Release
 
 on:
   release:
-    types: [published]
-
+    types:
+      - published
+      
 jobs:
   build:
     runs-on: ubuntu-latest
